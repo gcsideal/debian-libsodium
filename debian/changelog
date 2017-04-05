@@ -1,3 +1,9 @@
+libsodium (1.0.10-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Fri, 15 Apr 2016 16:07:32 +0000
+
 libsodium (1.0.8-5) unstable; urgency=low
 
   * Last bits of architecture specific symbols (closes: #813756).
