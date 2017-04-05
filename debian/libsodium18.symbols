@@ -1,9 +1,4 @@
 libsodium.so.18 libsodium18 #MINVER#
- (arch=amd64)_crypto_scalarmult_curve25519_sandy2x_fe51_mul@Base 1.0.8
- (arch=amd64)_crypto_scalarmult_curve25519_sandy2x_fe51_nsquare@Base 1.0.8
- (arch=amd64)_crypto_scalarmult_curve25519_sandy2x_fe51_pack@Base 1.0.8
- (arch=amd64)_crypto_scalarmult_curve25519_sandy2x_ladder@Base 1.0.8
- (arch=amd64)_crypto_scalarmult_curve25519_sandy2x_ladder_base@Base 1.0.8
  (arch=amd64)_crypto_stream_salsa20@Base 0.6.0
  (arch=amd64)_crypto_stream_salsa20_xor_ic@Base 0.6.0
  (arch=amd64 i386 kfreebsd-amd64 kfreebsd-i386 x32)crypto_aead_aes256gcm_abytes@Base 1.0.8
@@ -191,11 +186,6 @@ libsodium.so.18 libsodium18 #MINVER#
  crypto_scalarmult_curve25519@Base 0.6.0
  crypto_scalarmult_curve25519_base@Base 0.6.0
  crypto_scalarmult_curve25519_bytes@Base 0.6.0
- (arch=amd64)crypto_scalarmult_curve25519_sandy2x_fe51_mul@Base 1.0.8
- (arch=amd64)crypto_scalarmult_curve25519_sandy2x_fe51_nsquare@Base 1.0.8
- (arch=amd64)crypto_scalarmult_curve25519_sandy2x_fe51_pack@Base 1.0.8
- (arch=amd64)crypto_scalarmult_curve25519_sandy2x_ladder@Base 1.0.8
- (arch=amd64)crypto_scalarmult_curve25519_sandy2x_ladder_base@Base 1.0.8
  crypto_scalarmult_curve25519_scalarbytes@Base 0.6.0
  crypto_scalarmult_primitive@Base 0.6.0
  crypto_scalarmult_scalarbytes@Base 0.6.0
