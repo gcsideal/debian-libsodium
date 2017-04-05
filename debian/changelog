@@ -1,6 +1,7 @@
-libsodium (1.0.3-1) UNRELEASED; urgency=low
+libsodium (1.0.3-1) unstable; urgency=low
 
   * New upstream release.
+  * Update libsodium13.symbols .
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sat, 16 May 2015 21:17:39 +0000
 
