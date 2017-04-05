@@ -1,4 +1,4 @@
-libsodium (1.0.8-1) UNRELEASED; urgency=low
+libsodium (1.0.8-1) experimental; urgency=low
 
   * New upstream release.
   * Library transition to version 18 of soname.
