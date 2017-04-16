@@ -3,7 +3,6 @@ Section: libs
 Priority: optional
 Build-Depends: debhelper ( >= 9), pkg-config, dh-autoreconf
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Uploaders: Raúl Sánchez Siles <rasasi78@gmail.com>
 Standards-Version: 3.9.8
 Vcs-Hg: http://trismegisto.no-ip.org/hg/libsodium-debian
 Vcs-Browser: http://trismegisto.no-ip.org/hg/libsodium-debian
