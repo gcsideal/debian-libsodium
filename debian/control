@@ -1,9 +1,9 @@
 Source: libsodium
 Section: libs
 Priority: optional
-Build-Depends: debhelper ( >= 9), pkg-config, dh-autoreconf
+Build-Depends: debhelper ( >= 10), pkg-config, dh-autoreconf
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Vcs-Git: git://github.com/gcsideal/debian-libsodium
 Vcs-Browser: https://github.com/gcsideal/debian-libsodium
 Homepage: http://www.libsodium.org/

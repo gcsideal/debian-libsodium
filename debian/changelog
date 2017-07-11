@@ -1,6 +1,7 @@
-libsodium (1.0.12-1) UNRELEASED; urgency=medium
+libsodium (1.0.12-1) unstable; urgency=medium
 
   * New upstream release.
+  * Update Standards-Version to 4.0.0 and debhelper level to 10 .
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 11 Jul 2017 18:33:45 +0000
 
