@@ -94,6 +94,9 @@ libsodium.so.18 libsodium18 #MINVER#
  crypto_box_curve25519xchacha20poly1305_open_easy@Base 1.0.12
  crypto_box_curve25519xchacha20poly1305_open_easy_afternm@Base 1.0.12
  crypto_box_curve25519xchacha20poly1305_publickeybytes@Base 1.0.12
+ crypto_box_curve25519xchacha20poly1305_seal@Base 1.0.13
+ crypto_box_curve25519xchacha20poly1305_seal_open@Base 1.0.13
+ crypto_box_curve25519xchacha20poly1305_sealbytes@Base 1.0.13
  crypto_box_curve25519xchacha20poly1305_secretkeybytes@Base 1.0.12
  crypto_box_curve25519xchacha20poly1305_seed_keypair@Base 1.0.12
  crypto_box_curve25519xchacha20poly1305_seedbytes@Base 1.0.12
@@ -245,6 +248,7 @@ libsodium.so.18 libsodium18 #MINVER#
  crypto_onetimeauth_verify@Base 0.6.0
  crypto_pwhash@Base 1.0.10
  crypto_pwhash_alg_argon2i13@Base 1.0.10
+ crypto_pwhash_alg_argon2id13@Base 1.0.13
  crypto_pwhash_alg_default@Base 1.0.10
  crypto_pwhash_argon2i@Base 1.0.10
  crypto_pwhash_argon2i_alg_argon2i13@Base 1.0.10
@@ -267,6 +271,27 @@ libsodium.so.18 libsodium18 #MINVER#
  crypto_pwhash_argon2i_str_verify@Base 1.0.10
  crypto_pwhash_argon2i_strbytes@Base 1.0.10
  crypto_pwhash_argon2i_strprefix@Base 1.0.10
+ crypto_pwhash_argon2id@Base 1.0.13
+ crypto_pwhash_argon2id_alg_argon2id13@Base 1.0.13
+ crypto_pwhash_argon2id_bytes_max@Base 1.0.13
+ crypto_pwhash_argon2id_bytes_min@Base 1.0.13
+ crypto_pwhash_argon2id_memlimit_interactive@Base 1.0.13
+ crypto_pwhash_argon2id_memlimit_max@Base 1.0.13
+ crypto_pwhash_argon2id_memlimit_min@Base 1.0.13
+ crypto_pwhash_argon2id_memlimit_moderate@Base 1.0.13
+ crypto_pwhash_argon2id_memlimit_sensitive@Base 1.0.13
+ crypto_pwhash_argon2id_opslimit_interactive@Base 1.0.13
+ crypto_pwhash_argon2id_opslimit_max@Base 1.0.13
+ crypto_pwhash_argon2id_opslimit_min@Base 1.0.13
+ crypto_pwhash_argon2id_opslimit_moderate@Base 1.0.13
+ crypto_pwhash_argon2id_opslimit_sensitive@Base 1.0.13
+ crypto_pwhash_argon2id_passwd_max@Base 1.0.13
+ crypto_pwhash_argon2id_passwd_min@Base 1.0.13
+ crypto_pwhash_argon2id_saltbytes@Base 1.0.13
+ crypto_pwhash_argon2id_str@Base 1.0.13
+ crypto_pwhash_argon2id_str_verify@Base 1.0.13
+ crypto_pwhash_argon2id_strbytes@Base 1.0.13
+ crypto_pwhash_argon2id_strprefix@Base 1.0.13
  crypto_pwhash_bytes_max@Base 1.0.12
  crypto_pwhash_bytes_min@Base 1.0.12
  crypto_pwhash_memlimit_interactive@Base 1.0.10
