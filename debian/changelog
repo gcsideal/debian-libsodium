@@ -1,3 +1,9 @@
+libsodium (1.0.13-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Roger Shimizu <rogershimizu@gmail.com>  Thu, 03 Aug 2017 00:52:39 +0900
+
 libsodium (1.0.13-1) unstable; urgency=medium
 
   * New upstream release.
