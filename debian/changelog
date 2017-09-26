@@ -1,6 +1,7 @@
 libsodium (1.0.14-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update libsodium18.symbols .
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 26 Sep 2017 18:24:04 +0000
 
