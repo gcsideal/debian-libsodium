@@ -1,7 +1,9 @@
-libsodium (1.0.14-1) UNRELEASED; urgency=medium
+libsodium (1.0.14-1) unstable; urgency=medium
 
   * New upstream release.
   * Update libsodium18.symbols .
+  * Update Standards-Version to 4.1.0:
+    - change libsodium-dbg priority to optional.
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 26 Sep 2017 18:24:04 +0000
 
