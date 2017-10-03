@@ -1,4 +1,4 @@
-libsodium.so.18 libsodium18 #MINVER#
+libsodium.so.23 libsodium23 #MINVER#
  crypto_aead_aes256gcm_abytes@Base 1.0.8
  crypto_aead_aes256gcm_beforenm@Base 1.0.8
  crypto_aead_aes256gcm_decrypt@Base 1.0.8

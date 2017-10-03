@@ -8,7 +8,7 @@ Vcs-Git: git://github.com/gcsideal/debian-libsodium
 Vcs-Browser: https://github.com/gcsideal/debian-libsodium
 Homepage: http://www.libsodium.org/
 
-Package: libsodium18
+Package: libsodium23
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Architecture: any
@@ -25,7 +25,7 @@ Description: Network communication, cryptography and signaturing library
 
 Package: libsodium-dev
 Section: libdevel
-Depends: ${misc:Depends}, libsodium18 (= ${binary:Version})
+Depends: ${misc:Depends}, libsodium23 (= ${binary:Version})
 Architecture: any
 Multi-Arch: same
 Description: Network communication, cryptography and signaturing library - headers
@@ -43,7 +43,7 @@ Description: Network communication, cryptography and signaturing library - heade
 
 Package: libsodium-dbg
 Section: debug
-Depends: ${misc:Depends}, libsodium18 (= ${binary:Version})
+Depends: ${misc:Depends}, libsodium23 (= ${binary:Version})
 Architecture: any
 Multi-Arch: same
 Description: Network communication, cryptography and signaturing library - debug symbols
