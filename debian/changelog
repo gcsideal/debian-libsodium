@@ -1,3 +1,10 @@
+libsodium (1.0.15-1) UNRELEASED; urgency=medium
+
+  * New upstream release:
+    - the aes128ctr primitive was removed.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 03 Oct 2017 18:01:13 +0000
+
 libsodium (1.0.14-1) unstable; urgency=medium
 
   * New upstream release.
