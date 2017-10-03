@@ -450,14 +450,6 @@ libsodium.so.23 libsodium23 #MINVER#
  crypto_sign_update@Base 1.0.12
  crypto_sign_verify_detached@Base 0.6.1
  crypto_stream@Base 0.6.0
- crypto_stream_aes128ctr@Base 0.6.0
- crypto_stream_aes128ctr_afternm@Base 0.6.0
- crypto_stream_aes128ctr_beforenm@Base 0.6.0
- crypto_stream_aes128ctr_beforenmbytes@Base 0.6.0
- crypto_stream_aes128ctr_keybytes@Base 0.6.0
- crypto_stream_aes128ctr_noncebytes@Base 0.6.0
- crypto_stream_aes128ctr_xor@Base 0.6.0
- crypto_stream_aes128ctr_xor_afternm@Base 0.6.0
  crypto_stream_chacha20@Base 0.6.0
  crypto_stream_chacha20_ietf@Base 1.0.8
  crypto_stream_chacha20_ietf_keybytes@Base 1.0.12
