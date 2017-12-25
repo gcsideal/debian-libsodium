@@ -4,7 +4,7 @@ Upstream-Contact: Frank Denis <j at pureftpd dot org>
 Source: https://github.com/jedisct1/libsodium
 
 Files: *
-Copyright: 2013-2015 Frank Denis <j at pureftpd dot org>
+Copyright: 2013-2017 Frank Denis <j at pureftpd dot org>
 License: ISC
  Permission to use, copy, modify, and/or distribute this software for any
  purpose with or without fee is hereby granted, provided that the above 
@@ -77,15 +77,9 @@ License: public-domain
 Files: src/libsodium/crypto_generichash/blake2/ref/blake2b-ref.c
 Copyright: 2012 Samuel Neves <sneves@dei.uc.pt>
 License: CC0
- To the extent possible under law, the author(s) have dedicated all copyright
- and related and neighboring rights to this software to the public domain
- worldwide. This software is distributed without any warranty.
- .
- You should have received a copy of the CC0 Public Domain Dedication along with
- this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>
 
 Files: packaging/nuget/package.gsl
-Copyright: 2013-2014 Frank Denis <j at pureftpd dot org>
+Copyright: 2013-2017 Frank Denis <j at pureftpd dot org>
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the "Software"),
@@ -104,6 +98,10 @@ License: MIT
  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: src/libsodium/crypto_pwhash/argon2/argon2-encoding.*
+Copyright: 2015 Thomas Pornin <pornin@bolet.org>
+License: CC0
 
 Files: debian/*
 Copyright: 2014- Laszlo Boszormenyi (GCS) <gcs@debian.org>,
@@ -151,3 +149,11 @@ License: BSD-2-clause
  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
+
+License: CC0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along with
+ this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>
