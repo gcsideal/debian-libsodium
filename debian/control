@@ -40,20 +40,3 @@ Description: Network communication, cryptography and signaturing library - heade
  .
  This package provides development headers needed for applications that use
  libsodium.
-
-Package: libsodium-dbg
-Section: debug
-Depends: ${misc:Depends}, libsodium23 (= ${binary:Version})
-Architecture: any
-Multi-Arch: same
-Description: Network communication, cryptography and signaturing library - debug symbols
- NaCl (pronounced "salt") is a new easy-to-use high-speed software library for
- network communication, encryption, decryption, signatures, etc.
- .
- NaCl's goal is to provide all of the core operations needed to build
- higher-level cryptographic tools.
- .
- Sodium is a portable, cross-compilable, installable, packageable fork of NaCl,
- with a compatible API.
- .
- This package provides debugging symbols needed to debug libsodium itself.
