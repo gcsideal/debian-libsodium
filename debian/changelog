@@ -1,3 +1,9 @@
+libsodium (1.0.16-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Tue, 19 Dec 2017 19:25:34 +0000
+
 libsodium (1.0.15-2) experimental; urgency=medium
 
   * Update copyright to match current upstream source (closes: #878539).
