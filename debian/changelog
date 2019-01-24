@@ -1,6 +1,7 @@
 libsodium (1.0.17-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update libsodium23.symbols .
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Thu, 24 Jan 2019 18:51:58 +0100
 
