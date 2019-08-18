@@ -2,6 +2,7 @@ libsodium (1.0.18-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update libsodium23.symbols .
+  * Refer CC0 license via path in common licenses (closes: #882633).
 
  -- Laszlo Boszormenyi (GCS) <gcs@debian.org>  Sun, 18 Aug 2019 11:58:00 +0000
 
