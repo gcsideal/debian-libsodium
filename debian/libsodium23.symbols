@@ -146,12 +146,16 @@ libsodium.so.23 libsodium23 #MINVER#
  crypto_box_zerobytes@Base 0.6.0
  crypto_core_ed25519_add@Base 1.0.16
  crypto_core_ed25519_bytes@Base 1.0.16
+ crypto_core_ed25519_from_hash@Base 1.0.18
  crypto_core_ed25519_from_uniform@Base 1.0.16
+ crypto_core_ed25519_hashbytes@Base 1.0.18
  crypto_core_ed25519_is_valid_point@Base 1.0.16
  crypto_core_ed25519_nonreducedscalarbytes@Base 1.0.17
+ crypto_core_ed25519_random@Base 1.0.18
  crypto_core_ed25519_scalar_add@Base 1.0.17
  crypto_core_ed25519_scalar_complement@Base 1.0.17
  crypto_core_ed25519_scalar_invert@Base 1.0.17
+ crypto_core_ed25519_scalar_mul@Base 1.0.18
  crypto_core_ed25519_scalar_negate@Base 1.0.17
  crypto_core_ed25519_scalar_random@Base 1.0.17
  crypto_core_ed25519_scalar_reduce@Base 1.0.17
@@ -169,6 +173,23 @@ libsodium.so.23 libsodium23 #MINVER#
  crypto_core_hsalsa20_inputbytes@Base 0.6.0
  crypto_core_hsalsa20_keybytes@Base 0.6.0
  crypto_core_hsalsa20_outputbytes@Base 0.6.0
+ crypto_core_ristretto255_add@Base 1.0.18
+ crypto_core_ristretto255_bytes@Base 1.0.18
+ crypto_core_ristretto255_from_hash@Base 1.0.18
+ crypto_core_ristretto255_hashbytes@Base 1.0.18
+ crypto_core_ristretto255_is_valid_point@Base 1.0.18
+ crypto_core_ristretto255_nonreducedscalarbytes@Base 1.0.18
+ crypto_core_ristretto255_random@Base 1.0.18
+ crypto_core_ristretto255_scalar_add@Base 1.0.18
+ crypto_core_ristretto255_scalar_complement@Base 1.0.18
+ crypto_core_ristretto255_scalar_invert@Base 1.0.18
+ crypto_core_ristretto255_scalar_mul@Base 1.0.18
+ crypto_core_ristretto255_scalar_negate@Base 1.0.18
+ crypto_core_ristretto255_scalar_random@Base 1.0.18
+ crypto_core_ristretto255_scalar_reduce@Base 1.0.18
+ crypto_core_ristretto255_scalar_sub@Base 1.0.18
+ crypto_core_ristretto255_scalarbytes@Base 1.0.18
+ crypto_core_ristretto255_sub@Base 1.0.18
  crypto_core_salsa2012@Base 0.6.0
  crypto_core_salsa2012_constbytes@Base 0.6.0
  crypto_core_salsa2012_inputbytes@Base 0.6.0
@@ -372,6 +393,10 @@ libsodium.so.23 libsodium23 #MINVER#
  crypto_scalarmult_ed25519_noclamp@Base 1.0.17
  crypto_scalarmult_ed25519_scalarbytes@Base 1.0.16
  crypto_scalarmult_primitive@Base 0.6.0
+ crypto_scalarmult_ristretto255@Base 1.0.18
+ crypto_scalarmult_ristretto255_base@Base 1.0.18
+ crypto_scalarmult_ristretto255_bytes@Base 1.0.18
+ crypto_scalarmult_ristretto255_scalarbytes@Base 1.0.18
  crypto_scalarmult_scalarbytes@Base 0.6.0
  crypto_secretbox@Base 0.6.0
  crypto_secretbox_boxzerobytes@Base 0.6.0
@@ -535,8 +560,8 @@ libsodium.so.23 libsodium23 #MINVER#
  randombytes_buf_deterministic@Base 1.0.12
  randombytes_close@Base 0.6.0
  randombytes_implementation_name@Base 0.6.0
+ randombytes_internal_implementation@Base 1.0.18
  randombytes_random@Base 0.6.0
- randombytes_salsa20_implementation@Base 0.6.0
  randombytes_seedbytes@Base 1.0.12
  randombytes_set_implementation@Base 0.6.0
  randombytes_stir@Base 0.6.0
