@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends: debhelper-compat (= 12), pkg-config
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Standards-Version: 4.4.0
-Vcs-Git: git://github.com/gcsideal/debian-libsodium
+Vcs-Git: https://github.com/gcsideal/debian-libsodium
 Vcs-Browser: https://github.com/gcsideal/debian-libsodium
 Homepage: https://www.libsodium.org/
 
