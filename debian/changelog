@@ -2,6 +2,8 @@ libsodium (1.0.18-2) UNRELEASED; urgency=medium
 
   * Bump debhelper from old 11 to 12.
   * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
 
  -- Debian Janitor <janitor@jelmer.uk>  Mon, 16 Dec 2019 04:25:21 +0000
 
